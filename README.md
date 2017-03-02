@@ -16,9 +16,9 @@ The aim of this project is to assess you as a Node.js backend developer.
 ## Project scope A: User registration
 
 ### User registration page
-The user is presented goes to a web form to register an account.
+The user is presented with a web form to register an account.
 
-**Note that the assets (html, js) will be given to you. You do not have to implement them from scratch.**
+**Note that the assets ([register.html](code/register.html), [register.js](code/register.js)) will be given to you. You do not have to implement them from scratch.**
 
 ![image](images/register-screen.png)
 
@@ -50,8 +50,8 @@ A facebook app with account kit has been configured, so you don't have to deal w
 There should be an API endpoint that takes in the response.code and
 
 * Calls Facebook API to retrieve the phone number. **Code given:** [fbacckit.js](code/fbacckit.js)
-* Checks that the phone number IS NOT an existing phone number belong to any other user (All users have unique phone number).
-* Generate a signed time-limited token (we use JWT) that contains a phone number
+* Checks that the phone number IS NOT an existing phone number belonging to any other user (All users have unique phone number).
+* Generate a signed time-limited token (we use JWT) that contains the phone number
 * Returns that token to the calling web page so that it can be passed as a hidden field in the form.
 
 
@@ -169,7 +169,7 @@ For proof-of-concept, an adminstrator (who is authenticated) will be able to
 ##### ![star](https://assets-cdn.github.com/images/icons/emoji/unicode/2b50.png) Requirement
 Implement the above API endpoints. Ensure that the adminstrator is authenticated. (As proof-of-concept, can be as checking for `Authorisation: ADMIN` in the HTTP header)
 
-*UI not required*
+*UI not required.*
 
 
 ## Project scope E: Validate user inputs
@@ -181,7 +181,7 @@ Currently user inputs when creating user account are not validated. User inputs 
 * email - valid email format
 
 ##### ![star](https://assets-cdn.github.com/images/icons/emoji/unicode/2b50.png) Requirement
-Implement the validation
+Implement validation
 
 
 
@@ -210,3 +210,10 @@ The Facebook account kit needs the server URLs to be whitelisted. You should use
 You can upload your code to Github repo and import it as a project to  [GoMix](https://gomix.com/) (free) to run it. If you do so, let me know the server url so I can add it to the whitelist.
 
 The APIs need to be be accessed from different domains (the web server and API server are different), so you may have to deal with CORS as well.
+
+
+## How to proceed
+
+* Estimate how much time you will take for each part (A to E). Let me know
+* Create a git repo and commit your code. Let me have access to the repo. A public repo is fine by me.
+* Remember, code organisation is very important.
