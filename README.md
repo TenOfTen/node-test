@@ -213,6 +213,7 @@ The APIs need to be be accessed from different domains (the web server and API s
 
 ## How to proceed
 
-* Estimate how much time you will take for each part (A to E). Let me know
+* Estimate how much time you will take for each part (A to E). Let me know.
+* There is no need to do all parts - depends on your speed, availability, appetite.
 * Create a git repo and commit your code. Let me have access to the repo. A public repo is fine by me.
 * Remember, code organisation is very important.
