@@ -101,9 +101,8 @@ The actual JSON returned (hint: use [https://jwt.io](https://jwt.io) to examine 
 		"username": "someone",
 		"email": "someone@example.com",
 		"e_verified": false,
-       "phone": "+6591234567",
-		"role": "parent",
-		"phone": "+6598569586"
+        "phone": "+6591234567",
+		"role": "parent"
 	},
 	"id_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJTcVM0d2V3YlNOV0xkZzdfc0RwbHJRIiwidXNlcmlkIjoiRGRmeUZnZGVSQzJCZkRMd2lIUU01USIsInJvbGUiOiJwYXJlbnQiLCJzZXJ2aWNlIjoiQVUiLCJpYXQiOjE0ODg0MjE5MTMsImV4cCI6MTQ4OTYzMTUxM30.XGxyojdocjXvfn3TMM6dHOlM3DP4mJx1QE7oWjHIDIY"
 }
